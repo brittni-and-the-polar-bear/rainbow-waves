@@ -18,7 +18,7 @@
 import commonjs from '@rollup/plugin-commonjs';
 import html from '@rollup/plugin-html';
 import json from '@rollup/plugin-json';
-import {nodeResolve} from '@rollup/plugin-node-resolve';
+import { nodeResolve } from '@rollup/plugin-node-resolve';
 import terser from '@rollup/plugin-terser';
 import typescript from '@rollup/plugin-typescript';
 
@@ -26,7 +26,7 @@ import analyzer from 'rollup-plugin-analyzer';
 import css from 'rollup-plugin-css-only';
 import serve from 'rollup-plugin-serve';
 
-import {readFileSync} from 'node:fs';
+import { readFileSync } from 'node:fs';
 
 const dev = process.env.ROLLUP_WATCH === 'true';
 
@@ -35,7 +35,7 @@ export default {
     output: {
         dir: './out/dist',
         format: 'es',
-        name: 'GenerativeArtTemplate',
+        name: 'rainbow waves',
         sourcemap: true,
         preserveModules: true
     },
@@ -55,7 +55,7 @@ export default {
             output: 'bundle.css'
         }),
         html({
-            title: 'Generative Art Template',
+            title: 'rainbow waves',
             publicPath: './'
         }),
         dev && serve({
