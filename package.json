@@ -1,0 +1,74 @@
+{
+  "name": "generative-art-project-template",
+  "version": "2.0.8",
+  "description": "A template for new brittni and the polar bear generative art projects using TypeScript with p5.js",
+  "main": "./out/dist/src/sketch.js",
+  "scripts": {
+    "lint": "eslint ./src",
+    "build": "rm -r ./out; rollup --config",
+    "start": "rm -r ./out; rollup --config --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brittni-and-the-polar-bear/generative-art-project-template.git"
+  },
+  "keywords": [
+    "code art",
+    "generative art",
+    "p5",
+    "p5.js",
+    "p5js",
+    "template",
+    "typescript"
+  ],
+  "author": {
+    "name": "brittni and the polar bear",
+    "url": "https://linktr.ee/brittniandthepolarbear"
+  },
+  "contributors": [
+    {
+      "name": "brittni watkins",
+      "url": "https://linktr.ee/brittniwatkins"
+    },
+    {
+      "name": "azurepolarbear",
+      "url": "https://linktr.ee/azurepolarbear"
+    }
+  ],
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/brittni-and-the-polar-bear/generative-art-project-template/issues"
+  },
+  "homepage": "https://github.com/brittni-and-the-polar-bear/generative-art-project-template#readme",
+  "dependencies": {
+    "@batpb/genart": "^1.1.0",
+    "@types/p5": "^1.7.6",
+    "p5": "^1.11.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-html": "^1.0.4",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.1",
+    "@stylistic/eslint-plugin": "^2.9.0",
+    "@types/eslint__js": "^8.42.3",
+    "@typescript-eslint/eslint-plugin": "^8.10.0",
+    "@typescript-eslint/parser": "^8.10.0",
+    "eslint": "^9.13.0",
+    "eslint-plugin-es-x": "^8.0.0",
+    "eslint-plugin-n": "^17.11.1",
+    "eslint-plugin-security": "^3.0.1",
+    "rollup": "^4.24.0",
+    "rollup-plugin-analyzer": "^4.0.0",
+    "rollup-plugin-css-only": "^4.5.2",
+    "rollup-plugin-serve": "^1.1.1",
+    "size-limit": "^11.1.6",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.8.0",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.10.0"
+  }
+}
