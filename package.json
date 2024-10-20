@@ -1,6 +1,6 @@
 {
   "name": "rainbow-waves",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "the rainbow waves generative art project",
   "main": "./out/dist/src/sketch.js",
   "scripts": {
